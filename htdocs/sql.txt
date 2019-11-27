@@ -1,0 +1,16 @@
+CREATE DATABASE contactmanagerbd;
+
+CREATE TABLE contato{
+	id int;
+	nome varchar(255);
+	telefone varchar(11),
+	email varchar(40),
+	logradouro varchar(40),
+	numero varchar(6),
+	complemento varchar(40),
+	bairro varchar(40),
+	cidade varchar(40),
+	uf varchar(2),
+	cep varchar(8)
+}
+
